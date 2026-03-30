@@ -1,4 +1,4 @@
-# Embedded Engineer Growth Framework – How to Use
+# Embedded Engineer Growth Framework – Guide
 
 This document explains how to use the **Embedded Engineer Growth Framework** created in this project. The framework is designed to support continuous improvement as an embedded engineer through structured learning, practical experimentation, and real system development.
 
