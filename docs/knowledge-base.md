@@ -299,3 +299,20 @@ Examples:
 * Peripheral buses (AHB/APB)
 
 Over time this knowledge base should grow into a **comprehensive personal reference for embedded engineering concepts**.
+
+## Definition IN/OUT in Functions
+
+Short Explanation:
+Each parameter in a function can be define as an input (in), output(out) or both.
+- If the argument didn't have a meaning before the function, then is [out]
+- If the argument had a meaning and the function just mutated or updated the argument then is [in,out]
+- If the argument had a meaning and keeps the same exact meaning then is [in]
+
+Why It Matters:
+It is important to correctly document your functions and make them clear to use.
+
+Common Pitfalls:
+
+* Struct that significantly changes meaning after fn isn't [in,out] just [out]
+* A field inside a struct changing value isn't [out] if it doesn't changes meaning and it doesn't affect other fields meaning. It would actually be [in,out]
+* Value != Meaning
