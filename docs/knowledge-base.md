@@ -303,10 +303,16 @@ Over time this knowledge base should grow into a **comprehensive personal refere
 ## Definition IN/OUT in Functions
 
 Short Explanation:
-Each parameter in a function can be define as an input (in), output(out) or both.
-- If the argument didn't have a meaning before the function, then is [out]
-- If the argument had a meaning and the function just mutated or updated the argument then is [in,out]
-- If the argument had a meaning and keeps the same exact meaning then is [in]
+Each function parameter can be classified based on how the function uses it.
+- **[in]**  
+  The argument already has a valid meaning before the function call and retains the same semantic meaning after the call.
+
+- **[out]**  
+  The argument does not require a meaningful value before the call.  
+  The function is responsible for initializing or defining its meaning.
+
+- **[in,out]**  
+  The argument has a valid meaning before the call and the function modifies its internal state, but its semantic identity remains the same.
 
 Why It Matters:
 It is important to correctly document your functions and make them clear to use.
@@ -314,5 +320,26 @@ It is important to correctly document your functions and make them clear to use.
 Common Pitfalls:
 
 * Struct that significantly changes meaning after fn isn't [in,out] just [out]
-* A field inside a struct changing value isn't [out] if it doesn't changes meaning and it doesn't affect other fields meaning. It would actually be [in,out]
-* Value != Meaning
+* Modifying a field inside a struct does not automatically make it [out]
+* Changing Value != Changing Meaning
+
+## Message Integrity
+
+Short Explanation:
+If a layer defines framing, it should also define integrity.
+A layer that defines where a message starts and ends is responsible for ensuring that the message content within those boundaries is valid.
+
+Why It Matters:
+- Critical for detecting accidental data corruption.
+- Clear ownership of integrity prevents ambiguity about which layer is responsible for validating data. 
+- It improves fault isolation and reduces hidden corruption propagation
+
+Common Pitfalls:
+
+* CRC duplication in different layers isn't wrong. Each integrity check protects against different failure domains.
+* Assuming lower-layer CRC is sufficient for application-level correctness.
+* Treating framing and integrity as unrelated concerns.
+
+## API vs ABI
+
+TO-DO
