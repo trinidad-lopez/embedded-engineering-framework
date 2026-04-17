@@ -343,3 +343,7 @@ Common Pitfalls:
 ## API vs ABI
 
 TO-DO
+
+## Compile‑time safety vs. Runtime flexibility
+
+TO-DO
