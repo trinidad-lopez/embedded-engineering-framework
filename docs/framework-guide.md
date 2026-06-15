@@ -192,7 +192,9 @@ Only the most significant projects should be included.
 
 A typical learning cycle within this framework looks like this:
 
-1. Learn a concept from the **Books** or **Knowledge Base**.
+0. Capture rough notes, questions, or ideas in the **Inbox** before they are forgotten.
+
+1. Learn a concept from the **Books**, **Knowledge Base**, or an inbox item.
 
 2. Apply the concept through a **Quick Project**.
 
@@ -205,6 +207,32 @@ A typical learning cycle within this framework looks like this:
 6. Document major systems in the **Engineering Portfolio**.
 
 This cycle reinforces both theoretical knowledge and practical experience.
+
+---
+
+# Inbox Review Workflow
+
+The inbox is the temporary landing zone for unorganized thoughts.
+
+Use it for:
+
+* project sparks
+* confusing concepts
+* rough notes from work or study
+* debugging observations
+* questions to ask later
+* resources to evaluate
+
+During review, each inbox item should become one of:
+
+* a Knowledge Base concept
+* a Quick Project
+* a Project Roadmap entry
+* a Debugging Playbook case
+* a Progress Tracker session or milestone
+* a closed note with no action
+
+The point is not to keep the inbox empty at all times. The point is to keep it from becoming a graveyard.
 
 ---
 
