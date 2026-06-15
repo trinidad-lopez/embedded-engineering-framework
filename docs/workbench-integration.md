@@ -52,6 +52,8 @@ python .\paw.py sources doctor
 python .\paw.py agent probe --name embedded-engineering-framework --goal "Summarize framework readiness" --check git-status
 ```
 
+For daily command recipes, use [framework-operator-guide.md](framework-operator-guide.md).
+
 ## First Integration Test
 
 Run these as read-only or draft-only tests first.
@@ -164,4 +166,3 @@ Useful compatibility rules:
 - avoid tool-specific block references for source-of-truth content
 - keep templates as plain Markdown files
 - keep Git history meaningful
-

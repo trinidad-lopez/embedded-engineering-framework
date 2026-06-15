@@ -43,6 +43,7 @@ This framework was created to:
 - **Portfolio** - Converts completed projects into professional case studies.
 - **Framework Guide** - Explains how the system is used.
 - **Workbench Integration** - [docs/workbench-integration.md](docs/workbench-integration.md) explains how the personal AI workbench should inspect and test this repo.
+- **Operator Guide** - [docs/framework-operator-guide.md](docs/framework-operator-guide.md) gives command recipes for using the framework through the workbench.
 
 The `docs/` directory contains the operating guide and index documents. The `notes/`, `projects/`, and `templates/` directories contain the durable working artifacts.
 

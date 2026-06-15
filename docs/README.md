@@ -23,6 +23,7 @@ The inbox is allowed to be messy. The rest of the repo should become clearer ove
 - [portfolio.md](portfolio.md): polished project writeups and interview-ready case studies.
 - [books.md](books.md): long-term reference material.
 - [workbench-integration.md](workbench-integration.md): how to test and use this repo through the personal AI workbench.
+- [framework-operator-guide.md](framework-operator-guide.md): technical-user command recipes for operating the framework through the workbench.
 
 ## Working Folders
 
