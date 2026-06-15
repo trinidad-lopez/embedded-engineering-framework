@@ -24,7 +24,10 @@ Embedded Engineer Growth
 ├── Debugging Playbook
 ├── Knowledge Base
 ├── Progress Tracker
-└── Engineering Portfolio
+├── Engineering Portfolio
+├── Notes
+├── Projects
+└── Templates
 ```
 
 These documents together create a system that supports learning, experimentation, project development, and professional documentation.
@@ -194,17 +197,19 @@ A typical learning cycle within this framework looks like this:
 
 0. Capture rough notes, questions, or ideas in the **Inbox** before they are forgotten.
 
-1. Learn a concept from the **Books**, **Knowledge Base**, or an inbox item.
+1. Move larger rough notes into `notes/inbox/` when they need their own file.
 
-2. Apply the concept through a **Quick Project**.
+2. Learn a concept from the **Books**, **Knowledge Base**, or an inbox item.
 
-3. Integrate multiple concepts into a larger **Project Roadmap** system.
+3. Apply the concept through a **Quick Project**.
 
-4. Document debugging experiences in the **Debugging Playbook**.
+4. Integrate multiple concepts into a larger **Project Roadmap** system or a project folder.
 
-5. Update the **Progress Tracker** when tasks or projects are completed.
+5. Document debugging experiences in the **Debugging Playbook**.
 
-6. Document major systems in the **Engineering Portfolio**.
+6. Update the **Progress Tracker** when tasks or projects are completed.
+
+7. Document major systems in the **Engineering Portfolio**.
 
 This cycle reinforces both theoretical knowledge and practical experience.
 
@@ -226,13 +231,40 @@ Use it for:
 During review, each inbox item should become one of:
 
 * a Knowledge Base concept
+* a concept note in `notes/concepts/`
 * a Quick Project
 * a Project Roadmap entry
+* a project brief under `projects/planned/` or `projects/active/`
 * a Debugging Playbook case
 * a Progress Tracker session or milestone
 * a closed note with no action
 
 The point is not to keep the inbox empty at all times. The point is to keep it from becoming a graveyard.
+
+---
+
+# Workbench-Assisted Workflow
+
+The personal AI workbench should be used as the active interface, not as a second source of truth.
+
+Use the workbench for:
+
+* probing the repo state
+* finding stale notes
+* summarizing inbox items
+* drafting concept-note expansions
+* turning project ideas into project briefs
+* extracting portfolio candidates
+* creating temporary session notes under ignored workbench state
+
+Keep durable outcomes in this repository:
+
+* reviewed concepts in `notes/concepts/` or `docs/knowledge-base.md`
+* scoped projects in `projects/planned/` or `projects/active/`
+* session outcomes in `docs/progress-tracker.md`
+* final portfolio material in `docs/portfolio.md`
+
+Temporary workbench notes should be promoted into the repo only after review.
 
 ---
 

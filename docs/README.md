@@ -5,7 +5,9 @@ This file is the routing table for the framework. Start here when deciding where
 ## Capture First
 
 - [inbox.md](inbox.md): rough notes, questions, project sparks, concepts you do not understand yet, and unprocessed Notepad++-style fragments.
-- [templates.md](templates.md): copyable structures for turning rough notes into durable entries.
+- [../notes/inbox/](../notes/inbox/): raw note files that are too large or specific for the single inbox document.
+- [../templates/](../templates/): standalone copyable templates for durable entries.
+- [templates.md](templates.md): quick template reference.
 
 The inbox is allowed to be messy. The rest of the repo should become clearer over time.
 
@@ -20,16 +22,24 @@ The inbox is allowed to be messy. The rest of the repo should become clearer ove
 - [debugging-playbook.md](debugging-playbook.md): debugging process, cases, and failure patterns.
 - [portfolio.md](portfolio.md): polished project writeups and interview-ready case studies.
 - [books.md](books.md): long-term reference material.
+- [workbench-integration.md](workbench-integration.md): how to test and use this repo through the personal AI workbench.
+
+## Working Folders
+
+- [../notes/](../notes/): repo-owned note files.
+- [../projects/](../projects/): planned, active, and completed project artifacts.
+- [../templates/](../templates/): standalone templates.
 
 ## Where Things Belong
 
 | If you have... | Put it first in... | Later refine into... |
 | --- | --- | --- |
 | A random note or question | `inbox.md` | `knowledge-base.md`, `progress-tracker.md`, or a project file |
-| A concept you do not understand | `inbox.md` | `knowledge-base.md` |
-| A project idea | `inbox.md` | `project-roadmap.md` or `quick-projects.md` |
+| A long raw note | `notes/inbox/` | `notes/concepts/`, `knowledge-base.md`, or a project file |
+| A concept you do not understand | `inbox.md` or `notes/inbox/` | `notes/concepts/` or `knowledge-base.md` |
+| A project idea | `inbox.md` or `notes/project-ideas/` | `project-roadmap.md`, `quick-projects.md`, or `projects/planned/` |
 | A bug or troubleshooting story | `debugging-playbook.md` | `portfolio.md` if it becomes a strong case study |
-| A completed work session | `progress-tracker.md` | `portfolio.md` for major outcomes |
+| A completed work session | `progress-tracker.md` or a project `sessions/` folder | `portfolio.md` for major outcomes |
 | A book/resource note | `inbox.md` | `books.md` or `knowledge-base.md` |
 
 ## Agent/Workbench Use
@@ -49,3 +59,5 @@ Useful future workbench tasks:
 - turn a project spark into a scoped quick project
 - find stale questions or unresolved blockers
 - extract portfolio candidates from progress sessions
+- compare repo-owned notes with workbench session notes and suggest promotions
+- create context packets for a specific project, concept, or review

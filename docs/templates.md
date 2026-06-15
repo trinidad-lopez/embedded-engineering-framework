@@ -2,6 +2,15 @@
 
 Copy these shapes when moving rough notes out of the inbox.
 
+Standalone template files also exist in `../templates/`:
+
+- `../templates/session-log.md`
+- `../templates/concept-note.md`
+- `../templates/project-brief.md`
+- `../templates/debugging-case.md`
+- `../templates/portfolio-entry.md`
+- `../templates/weekly-review.md`
+
 ## Concept Note
 
 ```text
