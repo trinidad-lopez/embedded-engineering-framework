@@ -70,7 +70,13 @@ Project/career reasons:
 
 ---
 
-## 6. Current weaknesses
+## 6. Current strengths
+
+- <strenghts>
+- <strenghts>
+- <strenghts>
+
+## 7. Current weaknesses
 
 - <weakness or uncertainty>
 - <weakness or uncertainty>
@@ -78,7 +84,7 @@ Project/career reasons:
 
 ---
 
-## 7. Current next actions
+## 8. Current next actions
 
 - [ ] <next action>
 - [ ] <next action>
@@ -86,7 +92,7 @@ Project/career reasons:
 
 ---
 
-## 8. Review questions
+## 9. Review questions
 
 Questions that should guide feedback:
 
@@ -98,7 +104,7 @@ Questions that should guide feedback:
 
 ---
 
-## 9. AI feedback instructions
+## 10. AI feedback instructions
 
 When reviewing this domain, AI should:
 
